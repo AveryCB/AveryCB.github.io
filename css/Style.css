@@ -3,8 +3,8 @@
   padding: 20px;
 }
 
-.image {
-  max-width: 100px;
-  height: 100px;
-;
+
+
+.image:hover {
+  transform: scale(1.2); /* Makes the image grow by 20% */
 }
