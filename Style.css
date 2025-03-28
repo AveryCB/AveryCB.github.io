@@ -2,3 +2,9 @@
   background-color: #CCD5AE;
   padding: 20px;
 }
+
+.image {
+  max-width: 100px;
+  height: 100px;
+;
+}
