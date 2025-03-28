@@ -1,5 +1,5 @@
 #background {
-  background-color: #CCD5AE;
+  background-color: #FEFAE0;
   padding: 20px;
 }
 
@@ -15,12 +15,25 @@
 .font {
   font-family: sans-serif;
   font-size: 20px;
+  
+}
+.title {
+  font-family: sans-serif;
+  font-size: 30px;
+ 
+}
+.subtitle {
+  font-family: sans-serif;
+  font-size: 25px;
 }
 
+
 .colorpalette {
-  background-color: #CCD5AE;;
-  padding: 20px;
-  border-radius: 10px;
+color: #CCD5AE;;
+  color:#E9EDC9;
+  color: #FEFAE0;
+  color: #FAEDCD;
+  color: #D4A373;
 }
 
 @keyframes grow-shrink {
