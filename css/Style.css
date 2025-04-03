@@ -4,8 +4,8 @@
 }
 
 #image{
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   
 }
 
@@ -41,7 +41,7 @@ color: #CCD5AE;;
     transform: scale(1); /* Original size */
   }
   50% {
-    transform: scale(1.2); /* Grows by 20% */
+    transform: scale(1.1); /* Grows by 20% */
   }
   100% {
     transform: scale(1); /* Back to original size */
@@ -52,4 +52,9 @@ color: #CCD5AE;;
   width: 100px;
   height: 100px;
   animation: grow-shrink 2s infinite; /* Apply animation */
+}
+.responsive
+{
+width: auto;
+height: auto;
 }
