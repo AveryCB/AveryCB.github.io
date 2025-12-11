@@ -1,103 +1,79 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avery Benbow - Portfolio</title>
+    <title>Avery Benbow</title>
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body id="background">
     <div class="container">
-        <!-- Header Section -->
-        <header class="row">
+        <div class="row">
             <div class="col-md-12">
+
                 <h1 class="title">Avery Benbow</h1>
-                <nav class="mb-3">
-                    <a href="#about">About</a>
+                <nav>
                     <a href="#indgame">Individual Game Project</a>
                     <a href="#2d-game">2D Game Project</a>
-                    <a href="#videos">Video Editing</a>
+                    <a href="#videos">Videos Edited in Kdenlive</a>
                     <a href="#contact">Contact</a>
                 </nav>
                 <hr>
-            </div>
-        </header>
 
-        <!-- About Section -->
-        <section id="about" class="row mb-5">
-            <div class="col-md-8">
-                <p class="font">Hello! I am a Games, Interactive Media, and Mobile major at Boise State University. I
-                    have made projects with Unity, Adobe Photoshop, Autodesk Maya, and web development projects.</p>
+                <a id="contact" href="https://www.linkedin.com/in/avery-benbow/">My LinkedIn</a>
+                <a href="Mailto:averybenbow@u.boisestate.edu">My Email</a>
+                <a href="https://github.com/AveryCB">My github</a>
+                <img class="picture" class="responsive" src="selfport.png" alt="Image of Avery Benbow">
+            </div>
+         
+                <p class="font">Hello I am a Games, Interactive Media, and Mobile major at Boise State University. I
+                    have made projects with Unity, Adobe Photoshop, Autodesk Maya, and web development projects. </p>
                 <p class="font">The purpose of this website is to act as a portfolio of the projects made in GIMM.</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <img class="image img-fluid mb-3" src="selfport.png" alt="Image" >
-            </div>
-        </section>
-
-        <!-- Contact Links -->
-        <section id="contact" class="row mb-4">
-            <div class="col-md-12">
-                <h2 class="subtitle">Contact</h2>
-                <p class="font">
-                    <a href="https://www.linkedin.com/in/avery-benbow/" target="_blank" class="me-3">LinkedIn</a>
-                    <a href="mailto:averybenbow@u.boisestate.edu" class="me-3">Email</a>
-                    <a href="https://github.com/AveryCB" target="_blank">GitHub</a>
-                </p>
                 <hr>
-            </div>
-        </section>
-
-        <!-- Individual Game Project -->
-        <section id="indgame" class="row mb-5">
-            <div class="col-md-12">
-                <h2 class="subtitle">Individual Game Project</h2>
+                <h2 class="subtitle" id="indgame">Individual game project</h2>
                 <p class="font">The individual game project was a game that I had full creative control over and is the
                     culmination of the skills I have so far learned in GIMM. What made the project fun was coming up
-                    with things to implement in the game.</p>
-                <img class="image img-fluid mb-3" src="indgame.png" alt="Individual game project screenshot" loading="lazy">
-                <h3 class="font">Technologies and Skills Used</h3>
+                    with things to implement in the game. </p>
+                <img id="image" class="image" class="responsive" src="indgame.png" alt="Image of the game" loading="lazy">
+                <h3 class="font">Technologies and skills used for this project</h3>
                 <p class="font">Unity, C#, Krita, Autodesk Maya, Audacity</p>
                 <hr>
-            </div>
-        </section>
-
-        <!-- 2D Game Project -->
-        <section id="2d-game" class="row mb-5">
-            <div class="col-md-12">
-                <h2 class="subtitle">2D Game Project</h2>
-                <p class="font">I made a 2D platformer in Unity. 2D images were created in Photoshop.
-                    It was then later connected to an Arduino using Ardity to control the character.</p>
-                <img class="image img-fluid mb-3" src="ardity2d.png" alt="2D game project screenshot" loading="lazy">
-                <h3 class="font">Technologies and Skills Used</h3>
-                <p class="font">Unity, C#, Arduino, Ardity</p>
+                <h2 class="subtitle" id="2d-game">2d game project</h2>
+                <p class="font">I Made a 2D Platformer in unity. 2d images were made in photoshop.
+                    It was then later connected to an Arduino using Ardity to control the character </p>
+                <img id="image" class="image" class="responsive" src="ardity2d.png" alt="Image of the game" loading="lazy">
+                <h3 class="font">Technologies and skills used for this project</h3>
+                <p class="font">Unity, C#, Arduino, Ardity </p>
                 <hr>
-            </div>
-        </section>
-
-        <!-- Video Editing -->
-        <section id="videos" class="row mb-5">
-            <div class="col-md-12">
-                <h2 class="subtitle">Videos Edited in Kdenlive</h2>
-                <p class="font">I have edited numerous videos in Kdenlive for portfolios at the end of projects and
-                    360 videos that were implemented in Unity.
-                    What I learned was how to use Kdenlive to edit videos.</p>
-                <img class="image img-fluid mb-3" src="Screenshot 2025-03-25 160044.png"
-                    alt="Kdenlive video editing interface" loading="lazy">
-                <h3 class="font">Technologies and Skills Used</h3>
+                <h2 class="subtitle" id="videos">Videos edited in Kdenlive</h2>
+                <p class="font"> I have edited numerous videos in KdenLive for portfolios at the end of a project and
+                    360 videos that were implemented in unity.
+                    What I Learned was how to use Kdenlive to edit videos.
+                </p>
+                <img id="image" class="image" class="responsive" src="Screenshot 2025-03-25 160044.png"
+                    alt="Kdenlive video editing" loading="lazy">
+                <h3 class="font">Technologies and skills used for this project</h3>
                 <p class="font">Kdenlive, Audacity</p>
-            </div>
-        </section>
-        
-    </div>
+                <hr>
+                <h2 class="subtitle">Group project in unreal</h2>
+                <p class="font">Learned ui design and implementation in Unreal Engine, sound effects, and blueprint scripting. </p>
+                <img id="image" class="image" class="responsive" src="unr.png" alt="Image of the game" loading="lazy">
+                <h3 class="font">Technologies and skills used for this project</h3>
+                <p class="font">Unreal Engine,Audacity,</p>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
-        crossorigin="anonymous"></script>
+            </div>
+
+
+
+
 </body>
 
 </html>
