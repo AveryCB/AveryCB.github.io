@@ -26,6 +26,14 @@
   font-family: sans-serif;
   font-size: 25px;
 }
+.column {
+  float: left;
+  width: 50%;
+}
+.rightcolumn {
+  float: right;
+  width: 50%;
+}
 
 
 .colorpalette {
